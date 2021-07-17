@@ -1,0 +1,188 @@
+Running 'Untitled'
+00:27:08
+1.
+open on /portal-usuario/login OK
+00:27:09
+2.
+setWindowSize on 683x728 OK
+00:27:11
+3.
+click on css=.mobile-ap .link-acesso OK
+00:27:13
+4.
+click on css=.btn-login OK
+00:27:15
+5.
+assertElementPresent on id=nome OK
+00:27:16
+6.
+assertElementPresent on id=email OK
+00:27:18
+7.
+assertElementPresent on id=confirmarEmail OK
+00:27:20
+8.
+assertElementPresent on id=senha OK
+00:27:22
+9.
+assertText on css=.form-group:nth-child(1) > .invalido > div with value Por favor, digite seu nome OK
+00:27:24
+10.
+assertText on css=.form-group:nth-child(2) > .invalido > div with value Por favor, digite seu e-mail OK
+00:27:26
+11.
+assertText on css=.form-group:nth-child(3) > .invalido > div with value Por favor, confirme seu e-mail OK
+00:27:28
+12.
+assertText on css=.form-group:nth-child(4) > .invalido > div with value Por favor, digite uma senha OK
+00:27:29
+13.
+assertElementPresent on css=.termos-azul OK
+00:27:31
+14.
+assertElementPresent on css=.btn-login OK
+00:27:33
+15.
+assertElementPresent on css=.link OK
+00:27:35
+16.
+click on id=senha OK
+00:27:37
+17.
+type on id=senha with value teste OK
+00:27:38
+18.
+click on css=.background-pagina OK
+00:27:40
+19.
+click on css=path OK
+00:27:42
+20.
+click on css=.svg-inline--fa OK
+00:27:44
+21.
+click on id=nome OK
+00:27:46
+22.
+type on id=nome with value Filipe Muanis OK
+00:27:48
+23.
+click on css=.background-pagina OK
+00:27:49
+24.
+click on id=email OK
+00:27:51
+25.
+type on id=email with value filipemuanis@outlook.com OK
+00:27:53
+26.
+click on css=.background-pagina OK
+00:27:55
+27.
+click on id=confirmarEmail OK
+00:27:57
+28.
+type on id=confirmarEmail with value filipemuanis@outlook.com OK
+00:27:58
+29.
+click on css=.background-pagina OK
+00:28:00
+30.
+click on id=senha OK
+00:28:02
+31.
+click on css=.background-pagina OK
+00:28:04
+32.
+type on id=senha with value teste123. OK
+00:28:06
+33.
+click on css=.background-pagina OK
+00:28:08
+34.
+click on css=.btn-login OK
+00:28:09
+35.
+assertText on css=.invalido > div with value Senha deve conter 6 a 10 caracteres com letras e números OK
+00:28:11
+36.
+click on css=path OK
+00:28:13
+37.
+click on id=senha OK
+00:28:15
+38.
+type on id=senha with value teste... OK
+00:28:17
+39.
+click on css=.invalido > div OK
+00:28:18
+40.
+assertText on css=.invalido > div with value Senha deve conter 6 a 10 caracteres com letras e números OK
+00:28:20
+41.
+click on id=senha OK
+00:28:22
+42.
+type on id=senha with value teste123 OK
+00:28:24
+43.
+click on css=.txt-acesse-seu-portal OK
+00:28:26
+44.
+click on css=.btn-login OK
+00:28:28
+45.
+click on id=senha OK
+00:28:30
+46.
+click on id=senha OK
+00:29:00
+47.
+type on id=senha with value tEste123 OK
+00:29:02
+48.
+click on css=.btn-login OK
+00:29:04
+49.
+assertText on css=h4 with value Tudo certo!\nSua conta foi criada. OK
+00:29:06
+50.
+assertText on css=.txt-acesse-seu-portal > p with value Agora você pode entrar no portal Ticket com seus dados cadastrados. OK
+00:29:08
+51.
+assertElementPresent on css=.btn-recuperar OK
+00:29:09
+52.
+click on css=.btn-recuperar OK
+00:29:11
+53.
+click on id=email OK
+00:29:13
+54.
+type on id=email with value filipemuanis OK
+00:29:15
+55.
+click on css=.background-pagina OK
+00:29:17
+56.
+click on css=.background-pagina OK
+00:29:19
+57.
+type on id=email OK
+00:29:21
+58.
+click on css=.btn-login OK
+00:29:22
+59.
+mouseOver on css=.btn-login OK
+00:29:24
+60.
+mouseOut on css=.btn-login OK
+00:29:26
+61.
+assertElementPresent on id=email OK
+00:29:28
+62.
+assertElementPresent on id=senha OK
+00:29:30
